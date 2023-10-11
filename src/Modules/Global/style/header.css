@@ -1,0 +1,26 @@
+#customer-dashboard-header {
+  background-color: #ffffff;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 100%;
+}
+.customer-dsahboard-input {
+  border-color: #5a5a5f !important;
+  height: 40px;
+  width: 544px;
+}
+.customer-dashboard-profile {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.customer-dashboard-profile-name {
+  font-family: Poppins;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 13px;
+  letter-spacing: 0.5px;
+  margin-left: 10px;
+  color: #0B2360;
+}

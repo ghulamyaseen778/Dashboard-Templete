@@ -1,0 +1,657 @@
+.communication-auto-complete .ant-select-selector {
+  height: 40px !important;
+  display: flex;
+  align-items: center !important;
+  border: 1px solid #5a5a5f !important;
+  outline: none !important;
+}
+.communication-auto-complete .ant-select-selector input {
+  font-size: 16px !important;
+  height: 100% !important;
+  color: #5a5a5f !important;
+}
+
+.communication-box {
+  display: flex;
+  align-items: center;
+  margin-top: 10px;
+}
+.communication-header {
+  width: 100%;
+  background-color: #0b2360;
+  height: 50px;
+  border-radius: 4px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 20px;
+  box-shadow: 0px 1px 4px 0px #00000033;
+}
+.communication-profile-background {
+  background-color: white;
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.communication-search {
+  margin-top: 25px;
+}
+.communication-profile-text {
+  font-family: Poppins;
+  font-size: 12px;
+  font-weight: 300;
+  line-height: 13px;
+  letter-spacing: 0.5px;
+  text-align: left;
+  color: white;
+  margin-left: 6px;
+}
+.communication-profile {
+  display: flex;
+  align-items: center;
+}
+.communication-icons {
+  display: flex;
+  align-items: center;
+}
+.comunication-chat {
+  width: 100%;
+  height: 200px;
+}
+.comunication-chat-inputs {
+  width: 100%;
+}
+.comunication-chat-input input.ant-input::placeholder {
+  color: #868686;
+  font-weight: 500;
+  font-family: Poppins;
+}
+.social-media-communication-text {
+  font-family: Poppins;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 27px;
+  letter-spacing: 0.02em;
+  text-align: left;
+  color: #5a5a5f;
+  padding: 10px 0 10px 10px;
+}
+.communication-social-cards .ant-card-body {
+  padding: 0 !important;
+}
+.social-box-communication {
+  width: 100%;
+  border-radius: 4px;
+  display: flex;
+  align-items: center;
+  height: 40px;
+  padding: 10px;
+  margin: 10px 0;
+}
+.communication-image-text {
+  font-family: Poppins;
+  font-size: 15px;
+  font-weight: 500;
+  line-height: 27px;
+  letter-spacing: 0.02em;
+  text-align: left;
+  color: white;
+  margin-left: 6px;
+}
+.comunication-main .ant-card .ant-card-body {
+  height: 20rem !important;
+}
+.Dashboard-Heading {
+  font-family: Poppins;
+  font-size: 34px;
+  font-weight: 500;
+  line-height: 66px;
+  letter-spacing: -0.02em;
+  color: #0b2360;
+}
+.dashboard-setting-text1 {
+  font-family: Poppins;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 27px;
+  letter-spacing: 0.02em;
+  color: #0b2360;
+}
+.dashboard-setting-text2 {
+  font-family: Poppins;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 21px;
+  letter-spacing: 0.02em;
+  color: #5a5a5f;
+  margin-top: 10px;
+}
+.dashboard-setting-row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 20px 0;
+}
+.notificatin-main-box {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.notification-btn {
+  color: #0b2360;
+  border-radius: 4px;
+  border: 1px solid #0b2360;
+  padding: 6px 16px 6px 16px;
+  font-family: Poppins;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 27px;
+  letter-spacing: 0em;
+  text-align: left;
+  transition: background 0.5s ease-in-out;
+  cursor: pointer;
+}
+.notification-btn:hover {
+  color: white;
+  background-color: #0b2360;
+}
+.notification-box-heading {
+  font-family: Poppins;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 27px;
+  letter-spacing: 0.02em;
+  color: #0b2360;
+  display: flex;
+  align-items: center;
+}
+.mt {
+  margin-top: 20px;
+}
+.notification-box-date {
+  font-family: Poppins;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 21px;
+  letter-spacing: 0.02em;
+  text-align: left;
+  color: #5a5a5f;
+}
+.notification-box-text {
+  font-family: Poppins;
+  font-size: 12px;
+  font-weight: 500;
+  line-height: 21px;
+  letter-spacing: 0.02em;
+  text-align: left;
+  color: #3b3b40;
+  margin: 10px 10px 0 25px;
+}
+.notificaton-box-btn1 {
+  color: #0b2360;
+  border-radius: 4px;
+  border: 1px solid #0b2360;
+  padding: 4px 10px 4px 10px;
+  font-family: Poppins;
+  font-size: 12px;
+  font-weight: 500;
+  line-height: 27px;
+  letter-spacing: 0em;
+  text-align: left;
+  transition: background 0.5s ease-in-out;
+  cursor: pointer;
+}
+.notificaton-box-btn2 {
+  color: white;
+  background-color: #0b2360;
+  border-radius: 4px;
+  padding: 4px 10px 4px 10px;
+  font-family: Poppins;
+  font-size: 12px;
+  font-weight: 500;
+  line-height: 27px;
+  letter-spacing: 0em;
+  text-align: left;
+  transition: background 0.5s ease-in-out;
+  cursor: pointer;
+  border: 1px solid #0b2360;
+  margin-left: 20px;
+}
+.notificaton-box-btn1:hover {
+  color: white;
+  background-color: #0b2360;
+}
+.notificaton-box-btn2:hover {
+  color: #0b2360;
+  border: 1px solid #0b2360;
+  background-color: transparent;
+}
+.notificaton-box-btns {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+.ant-pagination-item-active {
+  background-color: #0b2360 !important;
+  border: none !important;
+  color: white !important;
+}
+.ant-divider-vertical {
+  border-inline-start: 1px solid black !important;
+}
+.profile-main-box {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 60px 0px 40px;
+  position: relative;
+}
+.Dashboard-Heading2 {
+  font-family: Poppins;
+  font-size: 35px;
+  font-weight: 800;
+  line-height: 47px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #0b2360;
+}
+.profile-img-box {
+  background-color: #0b2360;
+  width: 130px;
+  height: 130px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+.profile-img-on-hover {
+  position: absolute;
+  background-color: rgba(0, 0, 0, 0.49);
+  width: 130px;
+  height: 130px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  display: none;
+}
+
+.profile-img-box:hover .profile-img-on-hover {
+  display: flex;
+}
+.profile-h2-haeding {
+  font-family: Poppins;
+  font-size: 25px;
+  font-weight: 600;
+  line-height: 35px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: rgba(0, 0, 0, 1);
+}
+
+.profile-2-box-heading-1 {
+  font-family: Poppins;
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 23px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #5a5a5f;
+  margin-top: 10px;
+}
+.profile-2-box-heading-2 {
+  font-family: Poppins;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 23px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #5a5a5f;
+  margin-top: 6px;
+  display: flex;
+  align-items: center;
+}
+.profile-2-box-heading-3 {
+  font-family: Poppins;
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 23px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #0b2360;
+  display: flex;
+  align-items: center;
+  margin-top: 6px;
+}
+.profile-2-box {
+  margin-top: 30px;
+}
+.billing-card-table {
+  height: 27rem !important;
+}
+.billing-card-heading {
+  font-family: Poppins;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 20px;
+  letter-spacing: 0px;
+  color: #666666;
+}
+.billing-card-filter-button {
+  width: 158px;
+  background-color: white;
+  height: 40px;
+  border-radius: 21px;
+  border: 2px solid #f5f6f7ff;
+  font-family: Poppins;
+  font-size: 12px;
+  font-weight: 600;
+  line-height: 20px;
+  letter-spacing: 0px;
+  color: #6b7a99;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  cursor: pointer;
+}
+.billing-card-filter-button-line {
+  background-color: #f5f6f7ff;
+  height: 100%;
+  width: 2px;
+}
+.billing-card-table-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.billing-card-table-header {
+  background-color: #0b2360;
+  border-radius: 6px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+  font-family: Poppins;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 15px;
+  letter-spacing: 0em;
+  color: white;
+  margin-top: 10px;
+  text-align: center;
+}
+.billing-card-table-colums {
+  overflow-y: auto;
+  height: 21rem;
+}
+.billing-card-table-row-channel-text {
+  font-family: Poppins;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 20px;
+  letter-spacing: 0px;
+  color: #666666;
+  text-align: left;
+}
+.billing-card-table-row-channel-date {
+  font-family: Poppins;
+  font-size: 9px;
+  font-weight: 500;
+  line-height: 20px;
+  letter-spacing: 0px;
+  color: #a2a2a2;
+  text-align: left;
+}
+.billing-card-table-row-name {
+  font-family: Poppins;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 20px;
+  letter-spacing: 0px;
+  color: #666666;
+}
+.billing-card-table-rows {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 20px;
+  margin: 12px 0;
+}
+.billing-card-table-row-tarsaction {
+  font-family: Poppins;
+  font-size: 18px;
+  font-weight: 700;
+  color: black;
+}
+.billing-card-table-header-tarsaction,
+.billing-card-table-header-name,
+.billing-card-table-header-channel,
+.billing-card-table-row-tarsaction,
+.billing-card-table-row-name,
+.billing-card-table-row-channel {
+  width: 25%;
+  text-align: center;
+}
+
+.billing-card-table-row-channel-img {
+  background-color: #0b2360;
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  margin-right: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.billing-card-table-row-channel {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.preference-heading-text {
+  font-family: Poppins;
+  font-size: 13px;
+  font-weight: 700;
+  line-height: 27px;
+  letter-spacing: 0.02em;
+  text-align: left;
+  color: #5a5a5f;
+}
+.preference-top-row {
+  margin-bottom: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.preference-top-btn {
+  font-family: Inter;
+  font-size: 10px;
+  font-weight: 400;
+  line-height: 15px;
+  letter-spacing: 0em;
+  border: 1px solid #929292;
+  color: black;
+  padding: 2px 20px;
+  border-radius: 6px;
+  margin-right: 10px;
+}
+.preference-top-btns {
+  display: flex;
+}
+.preference-table-main {
+  height: 45rem;
+}
+.preference-activity {
+  height: 22.2rem;
+  margin-top: 10px;
+}
+.preference-notification {
+  height: 22.2rem;
+}
+.preference-heading-text1 {
+  font-family: Inter;
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 20px;
+  letter-spacing: 0em;
+  color: black;
+}
+.preference-notification-box-heading {
+  font-family: Inter;
+  font-size: 13px;
+  font-weight: 400;
+  line-height: 20px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #2c2c2c;
+}
+.preference-notification-box-text2 {
+  font-family: Inter;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 18px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: rgba(28, 28, 28, 0.4);
+}
+.preference-notification-box-image {
+  width: 30px;
+  height: 30px;
+  background-color: #0b2360;
+  border-radius: 10px;
+  margin-right: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+.preference-notification-box {
+  display: flex;
+  margin: 10px 0;
+  padding: 5px 0;
+  position: relative;
+}
+.preference-activities-box-image::before {
+  position: absolute;
+  content: "";
+  background-color: rgba(28, 28, 28, 0.1);
+  height: 20px;
+  width: 2px;
+  bottom: 0px;
+  left: 14px;
+}
+.prefrence-contacts-text {
+  font-family: Inter;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 20px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: black;
+  margin-left: 6px;
+}
+.prefrence-contacts {
+  display: flex;
+  align-items: center;
+  margin-left: 20px;
+  margin-top: 10px;
+}
+.billing-agent-order-top {
+  display: flex;
+  justify-content: space-between;
+  margin: 0 20px;
+  align-items: center;
+}
+.billing-agent-order-heading {
+  font-family: Poppins;
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 20px;
+  letter-spacing: 0px;
+  color: rgba(102, 102, 102, 1);
+  margin-bottom: 30px;
+}
+.billing-agent-order-text {
+  font-family: Poppins;
+  font-size: 13px;
+  font-weight: 500;
+  line-height: 20px;
+  letter-spacing: 0px;
+  text-align: left;
+  color: rgba(102, 102, 102, 1);
+}
+.billing-agent-order-text2 {
+  font-family: Poppins;
+  font-size: 8px;
+  font-weight: 500;
+  line-height: 20px;
+  letter-spacing: 0px;
+  text-align: right;
+  color: rgba(102, 102, 102, 1);
+}
+.billing-agent-order-text3 {
+  font-family: Poppins;
+  font-size: 50px;
+  font-weight: 700;
+  line-height: 20px;
+  letter-spacing: 0px;
+  text-align: center;
+  color: black;
+  margin-left: 10px;
+}
+.billing-agent-order-input {
+  width: 500px;
+  border-radius: 20px;
+  background-color: rgba(239, 239, 239, 1);
+  outline: none;
+  border: none;
+  padding: 10px 10px;
+  font-size: 16px;
+  margin-top: 20px;
+  margin-left: 10px;
+}
+.checkBox-billing {
+  margin-top: 20px;
+  margin-left: 20px;
+  width: 400px;
+}
+.checkBox-billing2 {
+  margin-top: 10px;
+  display: flex;
+  justify-content: center;
+}
+.billing-agent-order-button1 {
+  background-color: #0b2360;
+  font-family: Poppins;
+  font-size: 12px;
+  font-weight: 700;
+  line-height: 20px;
+  letter-spacing: 0px;
+  color: white;
+  padding: 8px 25px;
+  border-radius: 30px;
+  z-index: 1;
+}
+.billing-agent-order-button{
+  display: flex;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.billing-agent-order-button2{
+  font-family: Poppins;
+font-size: 12px;
+font-weight: 500;
+line-height: 20px;
+letter-spacing: 0px;
+text-align: left;
+color: rgba(102, 102, 102, 1);
+background: rgba(228, 228, 228, 1);
+padding: 8px 25px;
+border-radius: 30px;
+margin-left: -20px;
+
+}
