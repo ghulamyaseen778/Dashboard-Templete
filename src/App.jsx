@@ -2,11 +2,13 @@ import React from "react";
 import { Route, Routes, useNavigate } from "react-router-dom";
 import DashboardLayout from "./Layout/Dashboard/index.jsx";
 import { Button, Result } from "antd";
+import Login from "./Modules/Registration/index.jsx";
 
 const App = () => {
   const navigate = useNavigate()
   return (
     <Routes>
+      <Route path="/" element={<Login />} />
       <Route path="/dashboard/*" element={<DashboardLayout />} />
       <Route
         path="*"
